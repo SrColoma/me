@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [svelte(), tailwind()],
-  site: 'https://srcoloma.github.io',
-  base: '/me',
+  site: 'https://srcoloma.com',
+  base: '/',
 });
